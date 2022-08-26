@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'digital';
+    src: url('/fonts/digital-7\ \(mono\).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    margin-top: 200px;
+}
+
+input {
+    margin: auto;
+    display: block;
+    border: 3px solid white;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.525);
+    color: green;
+    font-family: 'digital';
+    font-size: 6em;
+}
